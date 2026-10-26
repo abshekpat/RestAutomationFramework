@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="com.api.utils.TestListeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/abhishekpathak/automation/RestAutomationFramework">
+        <classes>
+            <class name="com.api.tests.UserTest">
+                <methods>
+                    <include name="createUserTest"/>
+                    <include name="getUserNameTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

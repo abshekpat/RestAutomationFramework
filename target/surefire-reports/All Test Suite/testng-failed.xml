@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" verbose="0">
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    <listener class-name="com.api.utils.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="/Users/abhishekpathak/automation/RestAutomationFramework(failed)" verbose="0">
+    <classes>
+      <class name="com.api.tests.UserTest">
+        <methods>
+          <include name="getUserNameTest"/>
+        </methods>
+      </class> <!-- com.api.tests.UserTest -->
+    </classes>
+  </test> <!-- /Users/abhishekpathak/automation/RestAutomationFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
